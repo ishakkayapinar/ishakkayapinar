@@ -1,0 +1,225 @@
+<!-- Basit, amatör elektrik tamiri için sade site dosyaları — index.html, about.html, services.html, contact.html, css/style.css, js/main.js -->
+
+<!-- FILE: index.html -->
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ev Elektrik Tamiri – İshak</title>
+  <meta name="description" content="Basit ev elektrik tamiri, priz, anahtar, lamba değişimi ve küçük arızalar.">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">İshak – Ev Elektrik Tamiri</a>
+      <nav class="nav" id="nav">
+        <a href="/">Ana Sayfa</a>
+        <a href="/about.html">Hakkımda</a>
+        <a href="/services.html">Hizmetler</a>
+        <a href="/contact.html">İletişim</a>
+      </nav>
+      <button id="menuBtn" class="menu-btn">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Evdeki Basit Elektrik İşleri İçin Uygun Fiyatlı Çözüm</h1>
+        <p>Priz, anahtar, lamba, avize montajı gibi küçük tamirat işleriniz için ulaşabilirsiniz.</p>
+        <p class="cta">
+          <a class="btn" href="/contact.html">İletişime Geç</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="features container">
+      <article>
+        <h3>Uygun Fiyat</h3>
+        <p>Büyük ustalar gibi maliyet çıkarmam. Ne yapılacaksa açık açık söylerim.</p>
+      </article>
+      <article>
+        <h3>Temel Tamirat</h3>
+        <p>Ev içinde insanların en çok yaşadığı basit arızaları çözerim.</p>
+      </article>
+      <article>
+        <h3>Güvenli Yaklaşım</h3>
+        <p>Her işte önce güvenlik. Yapamayacağım işe girmem.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> İshak – Ev Elektrik Tamiri</p>
+    </div>
+  </footer>
+  <script src="/js/main.js"></script>
+</body>
+</html>
+
+<!-- FILE: about.html -->
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hakkımda – İshak</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">İshak – Ev Elektrik Tamiri</a>
+      <nav class="nav">
+        <a href="/">Ana Sayfa</a>
+        <a href="/about.html">Hakkımda</a>
+        <a href="/services.html">Hizmetler</a>
+        <a href="/contact.html">İletişim</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Hakkımda</h1>
+    <p>Ben İshak. Profesyonel bir usta değilim ama ev işlerinde elim yatkındır. Yıllardır kendi evimde ve yakın çevremde küçük elektrik tamiratları yaparım. İnsanlara faydam dokunsun diye bu işe yeni adım attım.</p>
+
+    <p>Uzman değilim, ama bildiğim işleri düzgün yaparım. Yapamayacağım ya da riskli olan işlere girmem, gerekirse yönlendiririm.</p>
+
+    <h2>Yapabildiğim Temel İşler</h2>
+    <ul>
+      <li>Lamba & avize montajı</li>
+      <li>Priz ve anahtar değişimi</li>
+      <li>Küçük kablo yenileme işleri</li>
+      <li>Basit arıza tespiti</li>
+    </ul>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year2"></span> İshak</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year2').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
+<!-- FILE: services.html -->
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hizmetler – İshak</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">İshak – Ev Elektrik Tamiri</a>
+      <nav class="nav">
+        <a href="/">Ana Sayfa</a>
+        <a href="/about.html">Hakkımda</a>
+        <a href="/services.html">Hizmetler</a>
+        <a href="/contact.html">İletişim</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Hizmetler</h1>
+
+    <section class="service-list">
+      <article>
+        <h3>Lamba – Avize Montajı</h3>
+        <p>Basit montaj ve değişim işleri. Gerekiyorsa dübel, vida işlemleri yapılır.</p>
+      </article>
+      <article>
+        <h3>Priz & Anahtar Değişimi</h3>
+        <p>Yıpranmış veya bozuk priz/anahtarların değişimi.</p>
+      </article>
+      <article>
+        <h3>Küçük Ev Arızaları</h3>
+        <p>Kısa devreye sebep olmayan basit sorunların çözümü.</p>
+      </article>
+      <article>
+        <h3>Kablo Yenileme (Basit)</h3>
+        <p>Kısa bağlantı, gevşek kablo gibi küçük işler.</p>
+      </article>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year3"></span> İshak</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year3').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
+<!-- FILE: contact.html -->
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>İletişim – İshak</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">İshak – Ev Elektrik Tamiri</a>
+      <nav class="nav">
+        <a href="/">Ana Sayfa</a>
+        <a href="/about.html">Hakkımda</a>
+        <a href="/services.html">Hizmetler</a>
+        <a href="/contact.html">İletişim</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container contact-page">
+    <h1>İletişim</h1>
+    <p>Telefon: <strong>+90 5XX XXX XX XX</strong></p>
+    <p>E-posta: <strong>email@example.com</strong></p>
+
+    <form id="contactForm" class="contact-form" method="POST" action="https://formspree.io/f/{your-id}">
+      <label for="name">Ad Soyad</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">E-posta</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Mesaj</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit" class="btn">Gönder</button>
+      <p id="formMsg" class="form-msg"></p>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year4"></span> İshak</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year4').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
+<!-- FILE: css/style.css -->
+body{font-family:Arial,sans-serif;margin:0;color:#222}
+.container{max-width:900px;margin:auto;padding:1rem}
+.site-header{background:#fff;border-bottom:1px solid #ddd}
+.header-inner{display:flex;justify-content:space-between;align-items:center}
+.nav a{margin-left:1rem;text-decoration:none;color:#444}
+.hero{padding:2.5rem 0;background:#f2f6ff}
+.btn{background:#0b5cff;color:#fff;padding:.5rem 1rem;text-decoration:none;border-radius:.3rem}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-top:2rem}
+.service-list article{border:1px solid #ddd;padding:1rem;border-radius:.3rem;margin-bottom:1rem}
+.contact-form input,.contact-form textarea{width:100%;padding:.5rem;margin-top:.3rem;border:1px solid #ccc;border-radius:
